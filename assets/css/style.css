@@ -36,6 +36,7 @@ body {
     background: var(--primary-color) !important;
     font-family: 'poppins-regular' !important;
     color: var(--text-white) !important;
+    height: 3000px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -47,7 +48,34 @@ p {
     color: #ccc !important;
 }
 
-button {
+.accordion .accordion-item {
+    background-color: var(--primary-color) !important;
+}
+
+.accordion .accordion-item .accordion-body {
+    color: #ccc !important;
+}
+
+.accordion .accordion-button {
+    color: var(--secondary-color) !important;
+    background-color: rgba(57, 214, 221, .2) !important;
+    font-family: 'poppins-semibold';
+}
+
+.accordion .accordion-button::after {
+    display: none !important;
+}
+
+.accordion .accordion-button.collapsed .chevron-icon {
+    transform: rotate(180deg);
+}
+
+.accordion .accordion-button .chevron-icon {
+    transform: rotate(0);
+    transition: all .3s ease;
+}
+
+.custom-button {
     background: var(--linear-btn-color);
     border: 0;
     padding: 12px 50px;
@@ -56,14 +84,37 @@ button {
     transition: all .3s ease;
 }
 
-button:hover {
+.custom-button:hover {
     opacity: .8;
 }
 
-button:focus {
+.custom-button:focus {
     outline: rgba(50,128,128,0.3) solid 5px !important;
 }
 
+.title-text .small-text {
+    color: var(--secondary-color) !important;
+    font-family: 'poppins-semibold';
+}
+
+.title-text .small-text::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background-color: var(--secondary-color);
+    margin-right: 6px;
+    position: relative;
+    bottom: 5px;
+}
+
+.title-text .big-text {
+    margin-top: -10px;
+}
+
+section {
+    margin-top: 150px;
+}
 /* Navigation style */
 .navbar .navbar-nav .nav-item {
     margin-right: 2rem;
