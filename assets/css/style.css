@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #071A1E;
+    --secondary-color: #39D6DE;
+    --linear-btn-color: linear-gradient(to bottom, #328080, #2E5974);
+    --text-white: #eee;
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--primary-color) !important;
+    font-family: 'poppins-regular', 'arial', sans-serif !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-right: 2rem;
+}
+
+.navbar .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
