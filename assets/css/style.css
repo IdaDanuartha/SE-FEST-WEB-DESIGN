@@ -35,8 +35,7 @@ html {
 body {
     background: var(--primary-color) !important;
     font-family: 'poppins-regular' !important;
-    color: var(--text-white) !important;
-    height: 3000px;
+    color: var(--text-white) !important;    
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -113,8 +112,24 @@ p {
 }
 
 section {
+    padding-top: 50px;
     margin-top: 150px;
 }
+
+a {
+    color: var(--text-white) !important;
+    text-decoration: none !important;  
+    transition: all .2s ease;
+}
+
+a:hover {
+    color: var(--secondary-color) !important;
+}
+
+a.link-text:hover {
+    border-bottom: 1px solid var(--secondary-color) !important;
+}
+
 /* Navigation style */
 .navbar .navbar-nav .nav-item {
     margin-right: 2rem;
@@ -131,4 +146,50 @@ header {
 
 header .left-panel .big-text {
     font-size: 54px;
+}
+
+/* Study Materials Style */
+#study-materials .left-panel .matkul-group .number {
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+    border-radius: 50%;
+    width: 35px;
+    font-family: 'poppins-semibold';
+    padding: 5px 11px;
+    height: 35px;
+    background-color: rgba(57,214,222,.1);
+}
+
+#study-materials .left-panel .matkul-group .number.one {
+    padding: 4px 14px !important;
+}
+
+/* Work Prospects Style */
+#work-prospects .work-prospect-card {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    transition: all .3s ease;
+}
+
+#work-prospects .work-prospect-card:hover {
+    background-color: rgba(57,214,222,.05);
+    border: 1px solid var(--secondary-color);
+}
+
+#work-prospects .work-prospect-card .left-panel {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    padding: 8px;
+    background: var(--linear-btn-color);
+}
+
+#work-prospects .work-prospect-card .right-panel h3 {
+    font-size: 20px;
+    font-family: 'poppins-semibold';
+}
+
+#work-prospects .work-prospect-card .right-panel p {
+    font-size: 12px;
 }
