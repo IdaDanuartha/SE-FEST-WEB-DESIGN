@@ -193,3 +193,29 @@ header .left-panel .big-text {
 #work-prospects .work-prospect-card .right-panel p {
     font-size: 12px;
 }
+
+/* Required Skills Style */
+#required-skills .required-skills-card {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(57,214,222,.05);
+    border: 1px solid var(--secondary-color);
+}
+
+#required-skills .required-skills-card .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px 11px;
+    background: var(--primary-color);
+}
+
+#required-skills .required-skills-card .text h3 {
+    font-size: 20px;
+    font-family: 'poppins-semibold';
+    margin: 10px 0;
+}
+
+#required-skills .required-skills-card .text p {
+    font-size: 12px;
+}
