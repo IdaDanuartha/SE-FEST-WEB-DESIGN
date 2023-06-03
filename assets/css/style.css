@@ -36,6 +36,7 @@ body {
     background: var(--primary-color) !important;
     font-family: 'poppins-regular' !important;
     color: var(--text-white) !important;    
+    height: 5000px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -111,6 +112,10 @@ p {
     margin-top: -10px;
 }
 
+.description-text {
+    font-size: 12px;
+}
+
 section {
     padding-top: 50px;
     margin-top: 150px;
@@ -128,6 +133,26 @@ a:hover {
 
 a.link-text:hover {
     border-bottom: 1px solid var(--secondary-color) !important;
+}
+
+.swiper .swiper-pagination {
+    position: relative;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet {
+    width: 10px; 
+    height: 10px; 
+    background: rgba(57,214,222,.1); 
+    border: 1px solid var(--secondary-color); 
+    opacity: 1;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
+    width: 40px; 
+    transition: width 0.7s; 
+    border-radius: 5px; 
+    background: var(--secondary-color); 
+    border: 1px solid transparent;
 }
 
 /* Navigation style */
@@ -196,7 +221,7 @@ header .left-panel .big-text {
 
 /* Required Skills Style */
 #required-skills .required-skills-card {
-    padding: 15px;
+    padding: 20px;
     border-radius: 8px;
     background-color: rgba(57,214,222,.05);
     border: 1px solid var(--secondary-color);
@@ -218,4 +243,38 @@ header .left-panel .big-text {
 
 #required-skills .required-skills-card .text p {
     font-size: 12px;
+}
+
+/* Famous Figures Style */
+#famous-figures .famous-figures-card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(57,214,222,.05);
+    border: 1px solid var(--secondary-color);
+}
+
+#famous-figures .famous-figures-card .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px 11px;
+    background: var(--primary-color);
+}
+
+#famous-figures .famous-figures-card .text h3 {
+    font-size: 20px;
+    font-family: 'poppins-semibold';
+}
+
+#famous-figures .famous-figures-card .text p {
+    font-size: 12px;
+}
+
+#famous-figures .famous-figures-card .figure-img img {
+    border-radius: 4px;
+}
+
+#famous-figures .famous-figures-card .figure-link {
+    font-size: 12px;
+    color: var(--secondary-color) !important;
 }
