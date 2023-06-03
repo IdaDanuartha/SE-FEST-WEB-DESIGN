@@ -36,7 +36,6 @@ body {
     background: var(--primary-color) !important;
     font-family: 'poppins-regular' !important;
     color: var(--text-white) !important;    
-    height: 5000px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -148,8 +147,8 @@ a.link-text:hover {
 }
 
 .swiper .swiper-pagination .swiper-pagination-bullet-active {
-    width: 40px; 
-    transition: width 0.7s; 
+    width: 30px; 
+    transition: width 0.5s; 
     border-radius: 5px; 
     background: var(--secondary-color); 
     border: 1px solid transparent;
@@ -277,4 +276,25 @@ header .left-panel .big-text {
 #famous-figures .famous-figures-card .figure-link {
     font-size: 12px;
     color: var(--secondary-color) !important;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: rgba(57,214,222,.03);
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+footer .footer-text {
+    font-size: 12px;
+    color: var(--secondary-color) !important;
+    font-family: 'poppins-medium';
+}
+
+footer .social-group .social-link {
+    transition: all .3s ease;
+}
+
+footer .social-group .social-link:hover {
+    transform: translateY(-5px);
 }
