@@ -116,8 +116,8 @@ p {
 }
 
 section {
-    padding-top: 50px;
-    margin-top: 150px;
+    padding-top: 100px;
+    margin-top: 100px;
 }
 
 a {
@@ -155,6 +155,17 @@ a.link-text:hover {
 }
 
 /* Navigation style */
+.navbar {
+    width: 100%;
+    transition: all .3s ease;
+}
+
+.navbar.active {        
+    background: rgba(57,214,222, 0.05);
+    box-shadow: 0 4px 30px rgba(7, 26, 30, 0.01);
+    backdrop-filter: blur(4.1px);
+}
+
 .navbar .navbar-nav .nav-item {
     margin-right: 2rem;
 }
@@ -165,7 +176,7 @@ a.link-text:hover {
 
 /* Header style */
 header {
-    margin-top: 100px;
+    padding-top: 150px;
 }
 
 header .left-panel .big-text {
