@@ -309,3 +309,64 @@ footer .social-group .social-link {
 footer .social-group .social-link:hover {
     transform: translateY(-5px);
 }
+
+
+/* Responsive for max width 1280px */
+@media (max-width: 1280px) {
+    header .left-panel .big-text {
+        font-size: 44px;
+    }
+    header .left-panel .desc-text {
+        font-size: 14px;
+    }
+
+    .title-text .big-text {
+        font-size: 24px;
+    }
+
+    #work-prospects .work-prospect-card .right-panel h3 {
+        font-size: 0.95em;
+    }
+}
+
+/* Responsive for max width 992px */
+@media (max-width: 992px) {
+    .navbar.active {        
+        background: rgba(57,214,222, 0.08);
+        box-shadow: 0 4px 30px rgba(7, 26, 30, 0.01);
+        backdrop-filter: blur(3.5px);
+    }
+}
+
+/* Responsive for max width 884px */
+@media (max-width: 884px) {
+    header .left-panel .big-text {
+        font-size: 44px;
+    }
+    header .left-panel .desc-text {
+        font-size: 14px;
+    }
+    header .right-panel {
+        display: none;
+    }
+
+    section {
+        flex-direction: column;
+    }
+    section .description-text {
+        font-size: 10px;
+    }
+
+    .title-text .small-text {
+        font-size: 10px;
+    }
+
+    .title-text .big-text {
+        font-size: 20px;
+    }
+
+    #work-prospects .work-prospect-card .right-panel h3 {
+        font-size: 0.95em;
+    }
+
+}
