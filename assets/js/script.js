@@ -8,16 +8,13 @@ let swiper = new Swiper(".mySwiper", {
     0: {
       slidesPerView: 1,
     },
-    640: {
+    768: {
       slidesPerView: 2,      
     },
     1024: {
       slidesPerView: 3,      
     },
-    1400: {
-      slidesPerView: 4,      
-    },
-  },
+  }, 
 });
 
 
