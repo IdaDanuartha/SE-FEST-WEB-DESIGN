@@ -53,12 +53,14 @@ p {
 
 .accordion .accordion-item .accordion-body {
     color: #ccc !important;
+    font-size: 12px;
 }
 
 .accordion .accordion-button {
     color: var(--secondary-color) !important;
     background-color: rgba(57, 214, 221, .2) !important;
     font-family: 'poppins-semibold';
+    font-size: 12px;
 }
 
 .accordion .accordion-button::after {
